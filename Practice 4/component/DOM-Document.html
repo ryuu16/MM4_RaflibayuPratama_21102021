@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<h2 id="judul">My First Page</h2>
+<p id="old">implementasi dom document</p>
+
+<script>
+    var judul = document.getElementById("judul");
+    judul.innerHTML = "My Second Page";
+
+    var paragraf = document.createElement("p");
+    var old = document.getElementById("old");
+    paragraf.innerHTML = "semua content disini ditambahkan dengan dom document";
+    document.body.replaceChild(paragraf,old);
+</script>
+
+</body>
+</html>

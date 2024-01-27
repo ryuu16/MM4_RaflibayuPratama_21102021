@@ -18,8 +18,7 @@
         href="{{ url('') }}/vendor/almasaeed2010/adminlte/bower_components/Ionicons/css/ionicons.min.css">
     <!-- Theme style -->
     <link rel="stylesheet" href="{{ url('') }}/vendor/almasaeed2010/adminlte/dist/css/AdminLTE.min.css">
-    <!-- AdminLTE Skins. Choose a skin from the css/skins
-       folder instead of downloading all of them to reduce the load. -->
+    <!-- AdminLTE Skins. Choose a skin from the css/skins folder instead of downloading all of them to reduce the load. -->
     <link rel="stylesheet" href="{{ url('') }}/vendor/almasaeed2010/adminlte/dist/css/skins/_all-skins.min.css">
     <!-- Morris chart -->
     <link rel="stylesheet"
@@ -281,7 +280,7 @@
                             <a href="#" class="dropdown-toggle" data-toggle="dropdown">
                                 <img src="{{ url('') }}/vendor/almasaeed2010/adminlte/dist/img/user2-160x160.jpg"
                                     class="user-image" alt="User Image">
-                                <span class="hidden-xs">Abdul Aziz</span>
+                                <span class="hidden-xs">Rafli Bayu</span>
                             </a>
                             <ul class="dropdown-menu">
                                 <!-- User image -->
@@ -290,7 +289,7 @@
                                         class="img-circle" alt="User Image">
 
                                     <p>
-                                        Abdul Aziz - Web Developer
+                                        Rafli Bayu - Web Developer
                                         <small>Member since Nov. 2012</small>
                                     </p>
                                 </li>

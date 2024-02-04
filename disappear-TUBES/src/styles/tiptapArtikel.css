@@ -1,0 +1,34 @@
+.text-editor-container {
+  width: 100%;
+  margin-top: 1rem;
+  border: 1px solid #000;
+  border-radius: 0.5rem;
+  overflow: auto;
+}
+
+.text-editor-container.has-error {
+  border: 1px solid #e50000;
+}
+
+.text-editor-container .ProseMirror {
+  height: 24rem;
+  padding: 4px;
+  border-radius: 0.25rem;
+  overflow: auto;
+  border: none;
+  outline: none;
+  -webkit-tap-highlight-color: transparent;
+}
+
+.text-editor-container .ProseMirror h1,
+.text-editor-container .ProseMirror h2,
+.text-editor-container .ProseMirror ul,
+.text-editor-container .ProseMirror ol {
+  margin-left: 6px;
+  margin-bottom: 4rem;
+  list-style-type: disc;
+}
+
+.text-editor-container .ProseMirror li {
+  margin-bottom: 2rem;
+}
